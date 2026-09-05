@@ -39123,7 +39123,7 @@ window.polytrackModConfiguration = {
         }, Kc = function(e) {
             C.get(this, Mc, "f").innerHTML = "";
             const t = document.createElement("a");
-            t.href = "https://github.com/missonance", t.target = "_blank", t.textContent = "https://github.com/missonance", 
+            t.href = "https://kodub.com", t.target = "_blank", t.textContent = "https://kodub.com", 
             C.get(this, Mc, "f").appendChild(t);
             const n = document.createElement("a");
             n.href = "https://www.kodub.com", n.target = "_blank", n.textContent = "misotweaks 7.1.0, polytrack 0.6.0", 
