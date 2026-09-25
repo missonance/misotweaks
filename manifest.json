@@ -2,17 +2,7 @@
 	"name": "PolyTrack",
 	"icons": [
 		{
-			"src": "images/icons/cover1920x1080.png",
-			"sizes": "1920x1080",
-			"type": "image/png"
-		},
-		{
-			"src": "images/icons/cover512x512.png",
-			"sizes": "512x512",
-			"type": "image/png"
-		},
-		{
-			"src": "images/icons/icon.svg",
+			"src": "images/icon.svg",
 			"sizes": "any",
 			"type": "image/svg+xml",
 			"purpose": "any"
