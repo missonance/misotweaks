@@ -73173,7 +73173,7 @@
         }
         getLeaderboard(e, t, n, i, r) {
           let a =
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
             (0, R.gn)(this, Af, "f") +
             "leaderboard?version=0.6.3&trackId=" +
             t +
@@ -73384,7 +73384,7 @@
         }
         getLeaderboardUserEntry(e, t, n) {
           const i =
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
             (0, R.gn)(this, Af, "f") +
             "leaderboardUserEntry?version=0.6.3&trackId=" +
             t +
@@ -73438,7 +73438,7 @@
         }
         getRecordings(e) {
           const t =
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
             (0, R.gn)(this, Af, "f") +
             "recordings?version=0.6.3&ids=" +
             e.join(",");
@@ -73552,7 +73552,7 @@
                 c(new Error("Recording is too large"));
               else {
                 const o =
-                  "https://vps.kodub.com/" +
+                  "https://ptproxy.cwcinc.dev/" +
                   (0, R.gn)(this, Af, "f") +
                   "leaderboard";
                 let d =
@@ -73678,7 +73678,7 @@
         submitUserProfile(e, t, n, i) {
           return new Promise((r, a) => {
             const s =
-                "https://vps.kodub.com/" + (0, R.gn)(this, Af, "f") + "user",
+                "https://ptproxy.cwcinc.dev/" + (0, R.gn)(this, Af, "f") + "user",
               o =
                 "version=0.6.3&userToken=" +
                 encodeURIComponent(e) +
@@ -73710,7 +73710,7 @@
               s(new Error("Submit not allowed"));
             else {
               const o =
-                  "https://vps.kodub.com/" +
+                  "https://ptproxy.cwcinc.dev/" +
                   (0, R.gn)(this, Af, "f") +
                   "verifyRecordings",
                 l =
@@ -73843,7 +73843,7 @@
         getUser(e) {
           return new Promise((t, n) => {
             const i =
-                "https://vps.kodub.com/" +
+                "https://ptproxy.cwcinc.dev/" +
                 (0, R.gn)(this, Af, "f") +
                 "user?version=0.6.3&userToken=" +
                 encodeURIComponent(e),
@@ -73911,7 +73911,7 @@
               "WebSocket creation not allowed with non-deterministic physics",
             );
           return new WebSocket(
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
               (0, R.gn)(this, Af, "f") +
               "multiplayer/host",
           );
@@ -73922,7 +73922,7 @@
               "WebSocket creation not allowed with non-deterministic physics",
             );
           return new WebSocket(
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
               (0, R.gn)(this, Af, "f") +
               "multiplayer/join",
           );
@@ -73930,7 +73930,7 @@
         getIceServers() {
           return new Promise((e, t) => {
             const n =
-                "https://vps.kodub.com/" +
+                "https://ptproxy.cwcinc.dev/" +
                 (0, R.gn)(this, Af, "f") +
                 "iceServers?version=0.6.3",
               i = new XMLHttpRequest();
@@ -74005,7 +74005,7 @@
         }
         async getTrackOfTheWeek() {
           const e =
-            "https://vps.kodub.com/" +
+            "https://ptproxy.cwcinc.dev/" +
             (0, R.gn)(this, Af, "f") +
             "trackOfTheWeek?version=0.6.3";
           return new Promise((t, n) => {
@@ -74142,7 +74142,7 @@
         }
         async getAdminTrackOfTheWeekList(e) {
           const t =
-              "https://vps.kodub.com/" +
+              "https://ptproxy.cwcinc.dev/" +
               (0, R.gn)(this, Af, "f") +
               "admin/trackOfTheWeekList?version=0.6.3&userToken=" +
               encodeURIComponent(e),
@@ -74191,7 +74191,7 @@
         }
         async setAdminTrackOfTheWeek(e, t, n, i, r, a, s, o, l, c) {
           const h =
-              "https://vps.kodub.com/" +
+              "https://ptproxy.cwcinc.dev/" +
               (0, R.gn)(this, Af, "f") +
               "admin/trackOfTheWeek",
             d =
